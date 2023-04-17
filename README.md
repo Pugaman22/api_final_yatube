@@ -19,32 +19,32 @@ ___
 #### Как запустить проект:
 
 Клонировать репозиторий и перейти в него в командной строке:
-```
+```sh
 git clone git@github.com:Pugaman22/api_final_yatube.git
 ```
-```
+```sh
 cd api_final_yatube
 ```
 Cоздать и активировать виртуальное окружение:
-```
+```sh
 python -m venv venv
 ```
-```
+```sh
 source venv/Scripts/activate
 ```
 Установить зависимости из файла requirements.txt:
-```
+```sh
 python -m pip install --upgrade pip
 ```
-```
+```sh
 pip install -r requirements.txt
 ```
 Выполнить миграции:
-```
+```sh 
 python manage.py migrate
 ```
 Запустить проект:
-```
+```sh
 python manage.py runserver
 ```
 ___
