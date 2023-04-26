@@ -13,7 +13,7 @@ ___
 
 * Python
 * Django
-* djangorestframework
+* Django Rest Framework
 ___
 
 #### Как запустить проект:
